@@ -16,7 +16,9 @@ html {
 header{
 	background-color: black;
 }
-
+h1, h2, h3{
+	text-align: center;
+}	
 	.menu {
     margin: 0 30px 0 0;
 }
@@ -42,6 +44,30 @@ header{
     footer {
         display: none;
     }
+
+/* Ny Elever - Style */
+
+.box{
+        width: 100%;
+        background-color: red;
+        padding: 1px;
+		border: solid #000000 3px;
+    }
+
+	.studiebox{
+		border: solid #0067E4 5px;
+		margin-bottom: 5%;
+		padding: 3%;
+	}
+
+#ansogning{
+	background-color: red;
+        font-size: 300%;
+}
+#katedral-pic {
+		width: 100%;
+		border-radius: 8px;
+	}
 
 /* Mobile First op til 767px */
 @media (max-width: 767px){
@@ -100,12 +126,6 @@ header{
 		font-size: 30px;
 		}
 	
-	
-	.katedral-pic {
-		width: 100%;
-		border-radius: 8px;
-	}
-	
 	.billede-flexbox {
 		display: flex;
 		flex-direction: column;
@@ -132,27 +152,20 @@ header{
     
     /* nye elever main content */
     
-    .box{
-        width: 100%;
-        background-color: #ffdf00;
-        padding: 1px;
-    }
-    
-    #ansøgning{
-        text-align: center;
-    }
+    .fagliste{
+		color: #0067E4;
+		font-weight: 600
+	}
     
     
     .fagområder {
         text-align: center;
+		border: solid #000000 1px;
+		background-color: #ffdf00;
+		font-size: 150%;
+		padding: 2%;
         
-    }
-    .flexbox {
-        display: flex;
-        flex-direction: column;
-        background-color: #ffdf00;
-        margin-bottom: 10px;
-    }
+    } 
     
     
     
@@ -260,7 +273,7 @@ header{
     h1 {
         font-size: 400%
     }
-    h1, h2, p {
+    #naar-du-soeger p {
         text-align: center;
     }
     
@@ -285,6 +298,55 @@ header{
 		margin: -10% 0 0 9%;
 		font-size: 35px;
 	}
+    
+    /* Nye Elever */
+
+    li{
+		font-size: 150%;
+	}
+    .fagliste{
+		color: #0067E4;
+		font-size: 150%;
+		font-weight: 600;
+	}
+	
+	.gridcontainer{
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+	border: solid #000000 3px;
+	padding: 5%;
+	background-color: #0067E4
+}
+	
+	#studievejleder{
+	width: 100%;
+}
+
+#studievejledertekst{
+	font-size: 150%;
+	font-weight: bold;
+}
+    
+    .fagområder{
+		background-color: #ffdf00;
+		border: solid #000000 3px;
+		margin-bottom: 2%;
+		font-weight: bold;
+		font-size: 250%;
+	}
+    .studiebox h2, .studiebox h3, #naar-du-soeger h3 {
+        font-size: 300%;
+    }
+    .studiebox h2, .box h2 {
+        background-color: #ffdf00;
+    }
+    #naar-du-soeger p, .studiebox p {
+        font-size: 150%
+    }
+    #kontakt-studievejleder {
+        background-color: #ffdf00;
+        font-size: 300%;
+    }
     /* Kontakt */
     .kontakt-container {
         display: flex;
@@ -417,5 +479,36 @@ header{
     .instagram {
         width: 70px;
     }
+    
+    /* Nye Elever */
+    .fagliste{
+		font-size: 180%;
+	}
+	
+	.gridcontainer1{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 4%;
+	}
+	
+	.gridcontainer1 p{
+		text-align: justify;
+		font-size: 140%;
+	}
+	
+		.gridcontainer2{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 4%;
+	}
+	
+	.gridcontainer2 p{
+		text-align: justify;
+		font-size: 140%;
+	}
+	
+	#studievejledertekst{
+	font-size: 250%;
+}
 }
 
