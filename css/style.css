@@ -179,7 +179,14 @@ h1, h2, h3{
 		border-radius: 8px;
 		
     }
-    
+    .title-event{
+	font-size: 350%;
+	font-weight: bold;
+	}
+	.item2, .item3, .item4, .item5, .item6, .item7 {
+		border: solid #0067E4 5px;
+		margin-bottom: 5%;
+    }
     
     
     /* om skolen main content */
